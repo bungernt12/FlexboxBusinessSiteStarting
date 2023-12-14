@@ -1,0 +1,61 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    filter: invert(100%)
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerleft {
+    display: flex;
+}
+
+.headerleft-text {
+    padding-left: 3%;
+}
+
+.headerleft-text h3{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.headerleft-text p {
+    margin: 0px;
+}
+
+.headerright {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.banner {
+    background-image: url("../images/Arlo_Banner_Music.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.banner h1 {
+    margin: 0;
+}
