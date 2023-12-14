@@ -50,7 +50,9 @@ nav {
 }
 
 .banner {
-    background-image: url("../images/Arlo\ Tague\ at\ piano.jpg");
+    background: linear-gradient(to bottom, black, white, black),
+    url("../images/Arlo\ Tague\ at\ piano.jpg");
+    background-blend-mode: multiply;
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
