@@ -56,6 +56,14 @@ nav {
     justify-content: space-evenly;
 }
 
+.banner-text {
+    width: 50%;
+    font-size: .75rem;
+}
+
 .banner h1 {
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 2rem;
 }
