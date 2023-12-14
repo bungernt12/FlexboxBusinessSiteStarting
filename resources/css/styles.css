@@ -1,6 +1,6 @@
 html {
     background-color: black;
-    color: grey;
+    color: rgb(202, 202, 202);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -51,6 +51,25 @@ nav {
     justify-items: center;
 }
 
+nav a {
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
 .banner {
     background: url("../images/Arlo-tague-piano-gradient.png");
     background-size: contain;
@@ -77,6 +96,7 @@ nav {
 }
 
 
+
 #about img {
     width: 100%;
 }
@@ -88,4 +108,11 @@ nav {
 #about p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
+    margin: 5%;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
