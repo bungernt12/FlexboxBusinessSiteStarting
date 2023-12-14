@@ -1,7 +1,11 @@
 html {
     background-color: black;
-    color: white;
+    color: rgb(122, 122, 122);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin-right: 0;
 }
 
 .logo {
@@ -46,14 +50,14 @@ nav {
 }
 
 .banner {
-    background-image: url("../images/Arlo_Banner_Music.png");
+    background-image: url("../images/Arlo\ Tague\ at\ piano.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 220px;
+    min-height: 440px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:flex-start;
 }
 
 .banner-text {
@@ -62,7 +66,7 @@ nav {
 }
 
 .banner h1 {
-    margin: 0;
+    margin-top: 7%;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
     font-size: 2rem;
