@@ -52,9 +52,7 @@ nav {
 }
 
 .banner {
-    background: linear-gradient(to bottom, black, white, black),
-    url("../images/Arlo\ Tague\ at\ piano.jpg");
-    background-blend-mode: multiply;
+    background: url("../images/Arlo-tague-piano-gradient.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -72,6 +70,7 @@ nav {
 .banner h1 {
     margin-top: 7%;
     margin-left: 2%;
+    width: 90%;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
     font-size: 2rem;
